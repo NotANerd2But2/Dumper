@@ -1,10 +1,10 @@
-# Hyperion Dumper
+ Dumper
 
-HyperionDumper is a dumper specifically targetting the Roblox Hyperion module, it dumps it from memory and resolves statically what we call 'opaque predicates' those are basically branches of code that will be always taken.
+Dumper wad a dumper specifically targetting a module, to learn more about how opaque predicates workit dumps it from memory and resolves statically what we call 'opaque predicates' those are basically branches of code that will be always taken.
 
-Hyperion uses this to confuse reverse engineering tools and make statically reversing much harder, however with most (if not all) opaque predicates resolves, you will have much easier time reversing hyperion.
+alot of softwares uses this to confuse reverse engineering tools and make statically reversing much harder, however with most (if not all) opaque predicates resolves, you will have much easier time reversing hyperion.
 
-While Hyperion contains many more static obfuscations (like lazy importer, syscall number obfuscation, dead store), opaque predicates are mostly the reason why reverse engineering tools like IDA or Binary Ninja refuse to properly analyze functions.
+While some contains many more static obfuscations (like lazy importer, syscall number obfuscation, dead store), opaque predicates are mostly the reason why reverse engineering tools like IDA or Binary Ninja refuse to properly analyze functions.
 
 In the future, I might consider adding resolving another obfuscation features of hyperion, but I'm not sure about that.
 
